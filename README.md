@@ -18,7 +18,7 @@ In order to be able to fully test out the C compiler on some real programs for b
 For brevity, from here on out we refer to the AWC-enabled Clang compiler as AClang or aclang, and
 unless otherwise noted, Clang will always refers to the non-AWC-enabled Clang compiler. Similarly, alibc will refer to libc compiled with AClang.
 
-A [simple testing suite](https://github.com/argwidthcounting/awc-test-suite) is available, which contains several scripts for quickly testing AClang. This includes all of the benchmarking scripts used to populate the tables in the paper.
+A [simple testing suite](https://github.com/ktrio3/awc-test-suite) is available, which contains several scripts for quickly testing AClang. This includes all of the benchmarking scripts used to populate the tables in the paper.
 
 This project was based on the most recent stable release of Clang/LLVM at the time of development. This was [17.0.5](https://github.com/llvm/llvm-project/releases/tag/llvmorg-17.0.5) . While we had originally planned to fork the main branch, we instead downloaded the source for the last stable release as the current build at the time was marked as failing the build tests.
 
